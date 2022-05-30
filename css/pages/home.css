@@ -1,0 +1,12 @@
+/* base */
+@import "../base/base.css";
+@import "../base/layout.css";
+/* 3rd-party*/
+@import "../3rd-part/font-awesome.min.css";
+/* component */
+@import '../componets/button.css';
+@import '../componets/clock.css';
+@import '../componets/form.css';
+@import '../componets/mouse.css';
+@import '../componets/progress-bar.css';
+/* custom style goes bellow this line */
