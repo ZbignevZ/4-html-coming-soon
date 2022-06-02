@@ -10,3 +10,98 @@
 @import '../componets/mouse.css';
 @import '../componets/progress-bar.css';
 /* custom style goes bellow this line */
+
+/* header */
+
+section.bg-main{
+    background-image: url(../../image/banner-1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    padding-top: 100px;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    
+}
+
+.title{
+    color: rgb(70, 71, 75);
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.herotitle{
+    color: darkgray;
+    font-size: 20px;
+}
+
+.Timer{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.mainrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    height: 350px;
+
+}
+
+.titlerow h1{
+    color: black;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+}
+
+.column{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.rightrow{
+    width:40%;
+}
+
+
+.social{
+    width: 1000px;
+    height: 150px;
+    margin-left: calc(50% - 500px);
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color: rgb(244, 244, 244);
+    gap:15px ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.BOTTOM{
+    width: 1000px;
+    display: flex;
+    margin-left: calc(50% - 500px);
+    flex-direction: column;
+    text-align: center;
+    border-top: solid;
+    border-color: whitesmoke;
+    gap: 15px;
+    padding-top: 30px;
+    
+}
+
